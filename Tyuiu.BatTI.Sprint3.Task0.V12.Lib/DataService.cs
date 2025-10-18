@@ -7,12 +7,12 @@ namespace Tyuiu.BatTI.Sprint3.Task0.V12.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double multiSeries = 1;
-            int i;
-            for(i = startValue; i <= stopValue; i++)
+            int k;
+            for(k = startValue; k <= stopValue; k++)
             {
-                multiSeries = multiSeries * (1 + (1 / (i + 1)));
+                multiSeries = multiSeries * (1 + (1 * (Math.Pow(k + 1, -1))));
             }
-            return Math.Round(multiSeries, 3);
+            return multiSeries;
         }
     }
 }
