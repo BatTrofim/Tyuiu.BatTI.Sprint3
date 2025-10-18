@@ -1,0 +1,22 @@
+﻿using Tyuiu.BatTI.Sprint3.Task0.V12.Lib;
+
+namespace Tyuiu.BatTI.Sprint3.Task0.V12.Test
+{
+    [TestClass]
+    public sealed class DataServiceTest
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+            DataService ds = new DataService();
+
+            int value = 1;
+            int startValue = 1;
+            int stopValue = 2;
+
+            double res = ds.GetMultiplySeries(value, startValue, stopValue);
+            double wait = 1;
+            Assert.AreEqual(wait, res);
+        }
+    }
+}
