@@ -12,7 +12,7 @@ namespace Tyuiu.BatTI.Sprint3.Task1.V29.Lib
                 multiply = multiply * ((Math.Pow(value, 2) * startValue) + 2);
                 startValue++;
             }
-            return Math.Round(multiply);
+            return Math.Round(multiply, 2);
         }
     }
 }
