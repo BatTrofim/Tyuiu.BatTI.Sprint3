@@ -14,7 +14,7 @@ namespace Tyuiu.BatTI.Sprint3.Task4.V19.Test
             int stopValue = 5;
 
             double res = ds.Calculate(startValue, stopValue);
-            double wait = 9.432369489698907;
+            double wait = 9.432;
 
             Assert.AreEqual(wait, res);
         }

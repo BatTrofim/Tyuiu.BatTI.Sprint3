@@ -18,7 +18,7 @@ namespace Tyuiu.BatTI.Sprint3.Task4.V19.Lib
             
             y = y * (x * (Math.Pow(Math.Cos(x) + x, -1)) + 0.5);
             }
-            return y;
+            return Math.Round(y, 3);
         }
     }
 }
