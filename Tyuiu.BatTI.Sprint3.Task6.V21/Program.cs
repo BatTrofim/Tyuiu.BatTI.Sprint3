@@ -1,4 +1,4 @@
-﻿using Tyuiu.BatTI.Sprint3.Task5.V1.Lib;
+﻿using Tyuiu.BatTI.Sprint3.Task6.V21.Lib;
 
 DataService ds = new DataService();
 
@@ -6,8 +6,8 @@ Console.Title = "Спринт #3 | Выполнил: Бат Т.И. | ПИНб-25
 Console.WriteLine("****************************************************************************");
 Console.WriteLine("* Спринт #3                                                                *");
 Console.WriteLine("* Тема: Вложенные циклы                                                    *");
-Console.WriteLine("* Задание #5                                                               *");
-Console.WriteLine("* Вариант #1                                                               *");
+Console.WriteLine("* Задание #6                                                               *");
+Console.WriteLine("* Вариант #21                                                              *");
 Console.WriteLine("* Выполнил: Бат Трофим Иванович | ПИНб-25-1                                *");
 Console.WriteLine("****************************************************************************");
 Console.WriteLine("* УСЛОВИЕ:                                                                 *");
@@ -17,15 +17,13 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
 Console.WriteLine("****************************************************************************");
 
-int x = 5;
-int startValue1 = 1;
-int startValue2 = 1;
-int stopValue1 = 3;
-int stopValue2 = 10;
+int startValue = 19;
+int stopValue = 30;
+
 
 Console.WriteLine("****************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
 Console.WriteLine("****************************************************************************");
 
-Console.WriteLine("Результат = " + ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2));
+Console.WriteLine("Результат = " + ds.GetSumTheDivisors(startValue, stopValue));
 Console.ReadKey();
