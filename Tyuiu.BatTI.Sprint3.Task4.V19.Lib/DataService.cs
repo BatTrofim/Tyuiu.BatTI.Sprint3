@@ -14,9 +14,9 @@ namespace Tyuiu.BatTI.Sprint3.Task4.V19.Lib
                 {
                     break;
                 }
-            }
-            {
-                y = y * (x * (Math.Pow(Math.Cos(x) + x, -1)) + 0.5);
+            
+            
+            y = y * (x * (Math.Pow(Math.Cos(x) + x, -1)) + 0.5);
             }
             return y;
         }

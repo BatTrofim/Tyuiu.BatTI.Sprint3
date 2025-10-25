@@ -17,8 +17,8 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
 Console.WriteLine("****************************************************************************");
 
-int startValue = 5;
-int stopValue = -5;
+int startValue = -5;
+int stopValue = 5;
 
 Console.WriteLine("****************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
